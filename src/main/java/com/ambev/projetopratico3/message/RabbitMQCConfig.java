@@ -8,6 +8,6 @@ import org.springframework.context.annotation.Configuration;
 public class RabbitMQCConfig {
     @Bean
     public Queue queue() {
-        return new Queue("my-queue");
+        return new Queue("cadastroProdutos");
     }
 }
